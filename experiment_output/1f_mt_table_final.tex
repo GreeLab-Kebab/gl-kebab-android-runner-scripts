@@ -1,0 +1,65 @@
+\begin{table}[ht]
+\centering
+\caption{Randomized complete block design.} 
+
+\begin{threeparttable}
+\begin{tabular}{cr|c|cccc}
+\toprule
+ ID & Subject &  Run  &  T1\tnote{a} & T2\tnote{a} & T3\tnote{a} & T4\tnote{a} \\
+\midrule
+  \multirow{2}{*}{1} &        \multirow{2}{*}{m.youtube.com} &       1 &  11 & 5 & 10 & 53 \\
+&&2 &  71 & 66 & 70 & 118 \\
+\midrule
+  \multirow{2}{*}{2} &       \multirow{2}{*}{www.amazon.com} &       1 &  12 & 3 & 7 & 60 \\
+&&2 &  72 & 63 & 67 & 117 \\
+\midrule
+  \multirow{2}{*}{3} &    \multirow{2}{*}{www.wikipedia.org} &       1 &  4 & 19 & 25 & 99 \\
+&&2 &  65 & 79 & 85 & 119 \\
+\midrule
+  \multirow{2}{*}{4} &       \multirow{2}{*}{aws.amazon.com} &       1 &  26 & 13 & 49 & 23 \\
+&&2 &  86 & 73 & 109 & 83 \\
+\midrule
+  \multirow{2}{*}{5} &       \multirow{2}{*}{www.office.com} &       1 &  27 & 28 & 43 & 18 \\
+&&2 &  120 & 121 & 102 & 78 \\
+\midrule
+  \multirow{2}{*}{6} &     \multirow{2}{*}{www.buzzfeed.com} &       1 &  17 & 44 & 24 & 29 \\
+&&2 &  77 & 103 & 84 & 87 \\
+\midrule
+  \multirow{2}{*}{7} &       \multirow{2}{*}{nl.godaddy.com} &       1 &  15 & 57 & 59 & 51 \\
+&&2 &  75 & 114 & 116 & 110  \\
+\midrule
+  \multirow{2}{*}{8} &      \multirow{2}{*}{www.mozilla.org} &       1 &  46 & 40 & 8 & 6 \\
+&&2 &  61 & 105 & 97 & 68 \\
+\midrule
+  \multirow{2}{*}{9} &    \multirow{2}{*}{stackoverflow.com} &       1 &  6 & 98 & 33 & 39 \\
+&&2 &  122 & 124 & 123 & 96 \\
+\midrule
+ \multirow{2}{*}{10} &           \multirow{2}{*}{apache.org} &       1 &  107 & 16 & 14 & 42 \\
+ &&2 &  125 & 76 & 74 & 101 \\
+\midrule
+ \multirow{2}{*}{11} &  \multirow{2}{*}{www.theguardian.com} &       1 &  38 & 56 & 21 & 58 \\
+ &&2 &  95 & 113 & 81 & 115 \\
+\midrule
+ \multirow{2}{*}{12} &    \multirow{2}{*}{stackexchange.com} &       1 &  30 & 2 & 54 & 31 \\
+ &&2 &  88 & 62 & 126 & 89 \\
+\midrule
+ \multirow{2}{*}{13} &       \multirow{2}{*}{www.paypal.com} &       1 &  50 & 32 & 48 & 64 \\
+ &&2 &  127 & 90 & 108 & 128 \\
+\midrule
+ \multirow{2}{*}{14} &      \multirow{2}{*}{www.booking.com} &       1 &  45 & 20 & 9 & 52 \\
+ &&2 &  104 & 80 & 69 & 111 \\
+\midrule
+ \multirow{2}{*}{15} &          \multirow{2}{*}{www.bbc.com} &       1 &  47 & 34 & 41 & 55 \\
+ &&2 &  106 & 91 & 100 & 112 \\
+\midrule
+ \multirow{2}{*}{16} &        \multirow{2}{*}{www.amazon.in} &       1 &  22 & 35 & 37 & 36 \\
+ &&2 &  82 & 92 & 94 & 93 \\
+\bottomrule
+\end{tabular}
+\begin{tablenotes}
+    \item[a] The column refers to the treatment by index from the treatments listed in table~\ref{tab:variable-selection} under the main factor 'JavaScript code'. The number inside of this column refers to the order in which the the experiment is to be executed.
+\end{tablenotes}
+\end{threeparttable}
+
+\label{tab:execution:experiment-design}
+\end{table}
